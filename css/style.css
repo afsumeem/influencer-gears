@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0 100px;
+}
+
+/* navbar style */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.navigation-menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation-menu ul li {
+    padding: 15px;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.navigation-menu ul li:hover {
+
+    background-color: azure;
+
+}
+
+
+
+.navigation-menu ul li a {
+    text-decoration: none;
+}
+
+
+/* banner style */
+.banner-title {
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.banner-btn {}
