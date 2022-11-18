@@ -61,6 +61,10 @@ body {
     border: none;
     padding: 10px 24px;
     gap: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .banner-img img {
@@ -156,7 +160,32 @@ body {
 }
 
 .featured-section-content {
-    padding: 0 40px;
+    padding: 0 100px;
+}
+
+.featured-section-content h2 {
+    font-size: 38px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #0A0826;
+}
+
+.featured-section-content p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #6C6C6C;
+    line-height: 28px;
+}
+
+.featured-section-content button {
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 /* footer section style */
