@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 0 100px;
+
     background-color: #FFFFFF;
 }
 
@@ -10,6 +10,7 @@ body {
     justify-content: space-between;
     height: 100px;
     align-items: center;
+    padding: 0 100px;
 }
 
 
@@ -53,6 +54,7 @@ body {
 .banner {
     display: flex;
     margin-top: 80px;
+    padding: 0 100px;
 }
 
 .banner-title {
@@ -93,6 +95,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    padding: 0 100px;
 }
 
 .popular-collections h1 {
@@ -163,6 +166,7 @@ body {
     margin: 100px 0;
     display: flex;
     align-items: center;
+    padding: 0 100px;
 
 }
 
@@ -222,4 +226,23 @@ body {
     line-height: 24px;
     color: #D9DBE1;
     text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    column-gap: 10px;
+}
+
+.icon {
+    background-color: #ffffff18;
+
+    border-radius: 20px;
+    text-align: center;
+}
+
+.icon i {
+    /* width: 32px;
+    height: 32px; */
+    color: #FFFFFF;
+    padding: 14px;
 }
