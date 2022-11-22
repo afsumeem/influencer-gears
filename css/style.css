@@ -15,6 +15,10 @@ body {
     padding: 0 100px;
 }
 
+.logo-icon {
+    display: none;
+}
+
 
 .navigation-menu ul {
     display: flex;
@@ -267,9 +271,43 @@ body {
 @media only screen and (max-width: 768px) {
 
     /* For mobile phones: */
-    .banner {
-        display: block;
+
+    .navbar {
         padding: 0 20px;
+    }
+
+    .logo-icon {
+        display: block;
+    }
+
+    .navigation-menu {
+        display: none;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .banner-title {
+        font-size: 28px;
+    }
+
+    .banner-img {
+        height: 257px;
+        width: 257px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .banner-img img {
+        width: 202px;
+        height: 190px;
+
+
     }
 
     .logos {
